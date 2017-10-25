@@ -77,7 +77,7 @@
     }
     
     // good
-    function Listing(props) => {
+    function Listing(props) {
       return <div>{props.hello}</div>;
     }
     ```
