@@ -70,6 +70,16 @@
     function Listing({ hello }) {
       return <div>{hello}</div>;
     }
+    
+    // good
+    const Listing = (props) => {
+      return <div>{props.hello}</div>;
+    }
+    
+    // good
+    function Listing(props) => {
+      return <div>{props.hello}</div>;
+    }
     ```
 
 ## Mixins
